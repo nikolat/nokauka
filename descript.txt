@@ -1,0 +1,10 @@
+charset,UTF-8
+type,plugin
+name,nokauka
+id,ef757920-2bd0-11ef-8465-0800200c9a66
+filename,kagari.dll
+craftman,Don
+craftmanurl,https://nikolat.github.io/
+homeurl,https://raw.githubusercontent.com/nikolat/nokauka/main/
+secondchangeinterval,1
+readme.charset,UTF-8
