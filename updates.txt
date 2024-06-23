@@ -16,8 +16,8 @@ file,corelib/lua-utf8.dll04f1228488e5b3d03f177b9d9d184691size=79872date=2012-
 file,corelib/luachild.dll35436a2b3c8de344aac450298a7fb64dsize=23552date=2012-12-21T00:00:00
 file,corelib/mime/core.dllad571ac548b75abd5b07e5f90cf4c3afsize=78336date=2012-12-21T00:00:00
 file,corelib/mime/init.luab43bdc687bd40185e567fbb0c59f956bsize=2267date=2012-12-21T00:00:00
-file,corelib/path/init.lua264213955e5e47400c4651d82663a65fsize=730date=2012-12-21T00:00:00
-file,corelib/process/init.luac265fd4a2f40b257610351d37a8738casize=3139date=2012-12-21T00:00:00
+file,corelib/path/init.luac1065adb02c20421aeae9bea11e01c81size=1264date=2012-12-21T00:00:00
+file,corelib/process/init.luafc04a38756c71260fbee8d85e140044dsize=2683date=2012-12-21T00:00:00
 file,corelib/sakura_script/color.lua1b1b5f48609b0e9b4b6b7cb5a417175fsize=759date=2012-12-21T00:00:00
 file,corelib/sakura_script/init.lua80693100417e88d13cd6bfe873fb1047size=8536date=2012-12-21T00:00:00
 file,corelib/sakura_script/render.lua79c8e753d71af2d8aad5cf9369858e77size=303date=2012-12-21T00:00:00
