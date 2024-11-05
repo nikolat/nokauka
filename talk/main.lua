@@ -116,9 +116,11 @@ return {
             local fh  = io.open(filepath, "wb")
             fh:write(zip)
             fh:close()
-            local dirpath = __("_path")
+            local Conv = require("conv")
+            local filepathutf8 = Conv.conv(__("_path"), "UTF-8", "ANSI") .. "noka.zip"
+            local dirpathutf8 = Conv.conv(__("_path"), "UTF-8", "ANSI")
             local Misc  = require("ukagaka_misc")
-            Misc.sendSSTP(__("_uniqueid"), "EXECUTE SSTP/1.1\r\nCharset: UTF-8\r\nSender: Kagari\r\nCommand: ExtractArchive\r\nReference0: " .. filepath .. "\r\nReference1: " .. dirpath .. "\r\n\r\n")
+            Misc.sendSSTP(__("_uniqueid"), "EXECUTE SSTP/1.1\r\nCharset: UTF-8\r\nSender: Kagari\r\nCommand: ExtractArchive\r\nReference0: " .. filepathutf8 .. "\r\nReference1: " .. dirpathutf8 .. "\r\n\r\n")
             __("updated_at", __("_updated_at"))
             bootNoka(__)
           end
